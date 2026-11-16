@@ -3,7 +3,7 @@
 #
 # Licensed under the Apache License, Version 2.0
 
-FROM python:3.10.8-slim AS base
+FROM python:3.10-slim AS base
 
 FROM base AS builder
 
